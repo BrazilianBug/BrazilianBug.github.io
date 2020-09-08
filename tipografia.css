@@ -1,0 +1,89 @@
+/*TITULO*/
+.titulo{
+    margin: 0;
+    font-family: 'Staatliches', cursive;
+    color: #DC4C4C;
+    font-size: 500%;
+    width: 100%;
+}
+/*TITULO GRANDE [LEFT]*/
+.fz500{
+    font-size: 500%;
+}
+/*TITULO PEQUENO [LEFT]*/
+.fz200{
+    font-size: 200%;
+}
+
+/*------------------------*/
+
+/*SUBTITULO*/
+.subtitulo{
+    color: white;
+    font-size: 110%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-decoration: none;  
+    text-align: top;
+}
+.sub_cinza{
+    color: #262626;
+}
+.sub_branco_left{
+    text-align: left;
+}
+
+/*---------------------------*/
+
+/*paragrafos*/
+
+.paragrafo{
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    color: #EEEEEE;
+}
+
+.cinza{
+    color: #262626
+}
+.tcenter{
+    text-align: center;
+}
+.float{
+    float: left;
+}
+.floatbot{
+    float: inline-end;
+}
+.tleft{
+    text-align: left;
+}
+
+/*padding 50%*/
+.top50{
+    padding-top: 50%;
+}
+.bot50{
+    padding-bottom: 50%;
+}
+.left50{
+    padding-left: 50%;
+}
+.right50{
+    padding-right: 50%;
+}
+/*Padding 5%*/
+.top5{
+    padding-top: 5%;
+}
+.bot5{
+    padding-bottom: 5%;
+}
+.left5{
+    padding-left: 5%;
+}
+.right5{
+    padding-right: 5%;
+}
+   
+

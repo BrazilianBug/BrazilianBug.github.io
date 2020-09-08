@@ -1,0 +1,175 @@
+html,body{
+    margin: 0;
+
+}
+/*CABEÇALHO DO SITE*/
+header {
+    width: 100%;
+    height: 60px;
+    background:#262626;
+    position: fixed;
+    display: block;
+} 
+#logo img{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 500px;
+    float:left;
+    width: 210px;
+    position: relative;
+}
+#menu{
+    float: right;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 20px 20px 18px 20px;
+    list-style-type:none;
+
+
+}
+li a{
+    font-size: 110%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    background-color: #DC4C4C;
+}
+
+/*Primeira Sessão [Porquê]*/
+#fundo{ /*Background*/
+    background-position: center;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 10px;
+    z-index:1;
+}
+
+#botao{
+    font-size: 210%;
+    font-family: 'Staatliches', cursive;
+    color: #F2F2F2;
+    transform: translateY(-215%);
+    padding-left: 85%;
+    float: left;
+    text-decoration: none;
+}
+#setadupla{
+    padding-top: 3px;
+    padding-left: 1%;
+    width: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+/*Se refere ao menu que contem setas e uma linha no meio que ficam nas paginas*/
+#menu_linha
+{
+    position: absolute;
+    transform: translateY(-140%) translateX(4240%);
+
+}
+#menu_flecha_bot{
+    position: absolute;
+    transform: translateY(-140%) translateX(4240%);
+}
+
+/*Segunda Sessão [Metas]*/
+#porque{
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE
+}
+
+.coluna{
+    float: left;
+    position: relative;/*posição do elemento (div), vai variar, com base no elemento, que vem anteriormente (div ao lado esquerdo)*/    
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+}
+
+.quatro{
+    width: 15%;
+    transform: translateY(-20%);
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+}
+/*Terceira Sessão [Metas]*/
+
+.icone{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:10%;
+    left:50%;
+    margin-top: 5%px;
+    margin-left:-50px;
+}
+
+/*Quarta Sessão [Causas]*/
+#causas{
+    background-color: #101010;
+    width: 100%;
+    height: 100%;
+}
+.img_poluente{
+    transform: translateY(20%);
+    margin-left: 5%;
+    background-color: rebeccapurple;
+    width: 260;
+    height: 370px;
+    float: left;
+    align-content: center;
+}
+footer{
+    background-color:#262626;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.fundo_branco{
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+
+}
+
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+}
+
+.coluna, .dois, .tres, .quatro{
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+}
+
+#logo{
+    text-align: center;
+}
+#logo img{
+    margin-left: 0;
+    position: relative;
+}
