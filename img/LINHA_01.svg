@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="134" viewBox="0 0 30 134">
+  <defs>
+    <clipPath id="clip-LINHA_01">
+      <rect width="30" height="134"/>
+    </clipPath>
+  </defs>
+  <g id="LINHA_01" clip-path="url(#clip-LINHA_01)">
+    <g id="SETAS" transform="translate(-1737 -881.5)">
+      <rect id="Linha_Central" data-name="Linha Central" width="2" height="133" transform="translate(1751 882)" fill="#4a4a4a"/>
+    </g>
+  </g>
+</svg>
