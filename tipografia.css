@@ -4,7 +4,7 @@
     font-family: 'Staatliches', cursive;
     color: #DC4C4C;
     font-size: 500%;
-    width: 100%;
+    /*width: 100%;*/
 }
 /*TITULO GRANDE [LEFT]*/
 .fz500{
@@ -46,22 +46,25 @@
 .cinza{
     color: #262626
 }
-.tcenter{
+/*.tcenter{
     text-align: center;
-}
+}*/
 .float{
     float: left;
 }
-.floatbot{
+/*.floatbot{
     float: inline-end;
-}
-.tleft{
+}*/
+/*.tleft{
     text-align: left;
-}
+}*/
 
 /*padding 50%*/
-.top50{
+/*.top50{
     padding-top: 50%;
+}*/
+.top_titulo{
+    padding-top: 5%;
 }
 .bot50{
     padding-bottom: 50%;
@@ -73,17 +76,18 @@
     padding-right: 50%;
 }
 /*Padding 5%*/
-.top5{
+/*.top5{
     padding-top: 5%;
-}
+}*/
 .bot5{
     padding-bottom: 5%;
 }
-.left5{
+/*.left5{
     padding-left: 5%;
-}
+}*/
 .right5{
     padding-right: 5%;
 }
    
 
+/*TEXTOS DA SESSÃO CAUSAS*/
