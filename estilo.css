@@ -1,6 +1,5 @@
 html,body{
     margin: 0;
-    background-color:#EEEEEE;
 
 }
 /*CABEÇALHO DO SITE*/
@@ -92,7 +91,12 @@ section{
 }*/
 
 /*Segunda Sessão [Metas]*/
-
+#porque{
+    background-color: #EEEEEE;
+}
+#consequencias{
+    background-color: #EEEEEE;
+}
 
 /*.coluna{
     float: left;
@@ -148,18 +152,10 @@ section{
 }
 
 /*Quarta Sessão [Causas]*/
-#porque{
-    background-color: #EEEEEE;
-}
-
 #causas{
     background-color: #101010;
     /*width: 100%;
     height: 100%;*/
-}
-
-#consequencias{
-    background-color: #EEEEEE;
 }
 .img_poluente{
     /*width: 260;*/
@@ -208,18 +204,4 @@ footer{
         padding-right: 0;
         position: relative;
     }
-}
-
-.icone:hover
-{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-.img_poluente:hover
-{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
