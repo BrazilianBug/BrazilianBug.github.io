@@ -205,3 +205,19 @@ footer{
         position: relative;
     }
 }
+
+
+/*HOVERS*/
+.icone:hover
+{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.img_poluente:hover
+{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
