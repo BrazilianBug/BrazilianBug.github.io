@@ -91,3 +91,14 @@
    
 
 /*TEXTOS DA SESSÃO CAUSAS*/
+
+@media all and (max-width: 768px){
+.fz500{
+    font-size: 300%;
+}
+/*TITULO PEQUENO [LEFT]*/
+.fz200{
+    font-size: 100%;
+}
+
+}
