@@ -205,3 +205,35 @@ footer{
         position: relative;
     }
 }
+@media all and (max-width: 360px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logo{
+        text-align: center;
+        
+    }
+
+    #logo img{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+    }
+    .titulo{
+        font-size: 20%;
+    }
+    /*TITULO PEQUENO [LEFT]*/
+    .paragrafo{
+        font-size: 100%;
+    }
+}
