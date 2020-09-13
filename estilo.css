@@ -177,7 +177,7 @@ footer{
 }*/
 
 #sobre img{
-    width: 100%;
+    width: 50%;
 }
 
 @media all and (max-width: 768px){
@@ -227,13 +227,7 @@ footer{
         margin-left: 0;
         padding-left: 0;
         padding-right: 0;
-        position: relative;
-    }
-    .titulo{
-        font-size: 20%;
-    }
-    /*TITULO PEQUENO [LEFT]*/
-    .paragrafo{
-        font-size: 100%;
-    }
+        position: relative;}
 }
+
+
